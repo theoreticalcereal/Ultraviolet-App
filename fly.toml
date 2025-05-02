@@ -1,9 +1,6 @@
-app = "ultraviolet-app-rryx5a"  # Your Fly.io app name
+app = "ultraviolet-app-rryx5a"
 
-primary_region = "dfw"  # Choose a region close to you (e.g., iad, dfw, sjc)
-
-[build]
-  image = "ultraviolet-app-rryx5a"
+primary_region = "dfw"
 
 [env]
   NODE_ENV = "production"
