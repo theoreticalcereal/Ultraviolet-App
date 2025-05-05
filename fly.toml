@@ -8,7 +8,9 @@ primary_region = "dfw"
 [[services]]
   internal_port = 8080
   protocol = "tcp"
-  auto_start = false
+  
+[http_service.http_options]
+    idle_timeout = 60
 
   [[services.ports]]
     handlers = ["http"]
