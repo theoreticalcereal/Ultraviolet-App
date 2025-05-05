@@ -8,6 +8,7 @@ primary_region = "dfw"
 [[services]]
   internal_port = 8080
   protocol = "tcp"
+  auto_start = false
 
   [[services.ports]]
     handlers = ["http"]
